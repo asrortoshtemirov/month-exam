@@ -1,0 +1,21 @@
+.wrapper {
+  background-repeat: no-repeat;
+  background-image: url(../../img/wrapper.svg);
+  background-position-x: right;
+}
+
+@media screen and (max-width:850px) {
+  .wrapper {
+    background-repeat: no-repeat;
+    background-image: url(../../img/wrapper-tablet.svg);
+    background-position-x: center;
+  }
+}
+
+@media screen and (max-width:440px) {
+  .wrapper {
+    background-repeat: no-repeat;
+    background-image: url(../../img/wrapper-mobile.svg);
+    background-position-x: center;
+  }
+}
