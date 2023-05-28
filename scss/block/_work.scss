@@ -124,8 +124,7 @@
   }
   .work__icon-box {
     max-width: 280px;
-    display: grid;
-    grid-template-columns: 145px 145px;
+    display: flex;
     column-gap: 40px;
     margin: 0 auto;
   }

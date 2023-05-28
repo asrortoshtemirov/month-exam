@@ -510,8 +510,9 @@ body {
   }
   .work__icon-box {
     max-width: 280px;
-    display: grid;
-    grid-template-columns: 145px 145px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-column-gap: 40px;
        -moz-column-gap: 40px;
             column-gap: 40px;
@@ -942,8 +943,9 @@ body {
   #footer {
     background-repeat: no-repeat;
     background-image: url(../../img/footer-mobil.svg);
-    background-position-y: bottom;
+    background-position-y: 220px;
     background-position-x: center;
+    background-size: 100%;
   }
   .footer__container {
     -webkit-box-orient: vertical;
